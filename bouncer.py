@@ -4,7 +4,7 @@ age = input('How Old Are you?\n')
 
 if age != '':
     age = int(age)
-    if age >= 18 and age <= 21:
+    if age >= 18 and age < 21:
         # 18 - 21 Writband
         print('You Can Enter But you Need A Wrist Band')
     elif age >= 21:
