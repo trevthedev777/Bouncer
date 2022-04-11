@@ -1,10 +1,11 @@
 #Bouncer Age Declaration App
+
 A Age Verification App Built using Python
 
 Application
 
 Features
-The application allows users to convert their distance from Kilometers to Miles
+The application allows the event organizer to accurately distribute what type of entry should be given to the attendee based on their age
 
 Technologies
 Python
