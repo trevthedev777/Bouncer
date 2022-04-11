@@ -3,10 +3,11 @@ print('Please enter an age so we can allocate you your place in the party')
 age = input('How Old Are you?\n')
 
 if age != '':
-    if int(age) >= 18 and int(age) <= 21:
+    age = int(age)
+    if age >= 18 and age <= 21:
         # 18 - 21 Writband
         print('You Can Enter But you Need A Wrist Band')
-    elif int(age) >= 21:
+    elif age >= 21:
         # 21+ drink, normal entry
         print('Enjoy The Party!:)')
     else:
